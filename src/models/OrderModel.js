@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 const sequelize = require("../config/dbOrders");
 
 const Order = sequelize.define(
-  "Orders",
+  "Order",
   {
     id: {
       type: DataTypes.UUID,
